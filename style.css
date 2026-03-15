@@ -720,7 +720,7 @@ box-shadow:0 10px 25px rgba(59,130,246,0.4);
     } */
 
     .image-row img {
-        width: 100%;
+        width: 100% !important;
     }
 
    .navTrigger {
