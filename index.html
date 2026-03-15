@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+</head>
+<body>
+    <nav class="nav">
+        <div class="container">
+            <div class="logo">
+                <a href="#">Your Logo</a>
+            </div>
+            <div id="mainListDiv" class="main_list">
+                <ul class="navlinks">
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <span class="navTrigger">
+                <i></i>
+                <i></i>
+                <i></i>
+            </span>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+     <section id="home" class="section home-section">
+    <div class="container">
+            <h1 class="main-title">
+                    <span class="title-line">Creative</span>
+                    <span class="title-line gradient-text">UI/UX Designer</span>
+                </h1>
+            <p class="main-description">
+                    Crafting beautiful, intuitive digital experiences that users love.<br>
+                    Specialized in modern web design and user interface development.
+                </p>
+
+                <div class="main-buttons">
+                    <a href="#work" class="btn btn-primary">
+                        View My Work
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+</div>
+</section>
+
+<!-- About section -->
+ <section id="about" class="section about-section">
+    <div class="container">
+        <div class="section-header">
+                <h2 class="section-title">
+                    About <span class="gradient-text">Me</span>
+                </h2>
+                <p class="section-subtitle">
+                    Passionate designer with a love for creating meaningful digital experiences
+                </p>
+            </div>
+    
+
+    <div class="about-sec">
+                <div class="about-content">
+                    <div class="about-text">
+                        <div class="box">
+                            <h3>Hello, I'm Shubhi Goyal</h3>
+                            <div class="about-description">
+                                <p>
+                                    I am a passionate and creative UI/UX designer focused on crafting intuitive and
+                                    visually appealing digital experiences. My goal is to build user-centric solutions
+                                    that are both functional and delightful.
+                                </p>
+
+                                </p>
+                                <a href="resume/SHUBHI_GOYAL_FlowCV.pdf" download="" class="btn btn-secondary">
+                        <i class="fas fa-download"></i>
+                        Download Resume
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="about-image">
+                   <img src="./img/main.profile.png" alt="">
+                </div>
+
+            </div>
+                <div class="values-section">
+                <h3 class="values-title">
+                    My <span class="gradient-text">Values</span>
+                </h3>
+                <div class="values-grid">
+                    <div class="value-box">
+                        <div class="value-icon">
+                            <i class="fas fa-palette"></i>
+                        </div>
+                        <h4>Creative Vision</h4>
+                        <p>my personal believe is that the design should tell a story while solving real problems.</p>
+                    </div>
+                    <div class="value-box">
+                        <div class="value-icon">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <h4>Technical Excellence</h4>
+                        <p>Combining aesthetics with functionality to create seamless user experiences.</p>
+                    </div>
+                    <div class="value-box">
+                        <div class="value-icon">
+                            <i class="fas fa-users"></i>
+                        </div>
+                        <h4>User-Centered</h4>
+                        <p>Every design decision I made with the end user's prespective in mind.</p>
+                    </div>
+
+                    <div class="value-box">
+                        <div class="value-icon">
+                            <i class="fas fa-award"></i>
+                        </div>
+                        <h4>Quality Focus</h4>
+                        <p>Delivering pixel-perfect designs that exceed expectations and industry standards.</p>
+                    </div>
+                </div>
+            </div>
+</div>
+ </section>
+
+ <!-- Work Section -->
+    <section id="work" class="section work-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">
+                    My <span class="gradient-text">Work</span>
+                </h2>
+                <p class="section-subtitle">
+                    A showcase of projects that demonstrate my passion for creating exceptional user experiences
+                </p>
+            </div>
+
+            <div class="filter-tabs">
+                <button class="filter-btn active" data-filter="all">All Projects</button>
+            </div>
+
+            <div class="projects-grid">
+                <div class="project-box" data-category="illustrator">
+                    <div class="project-image">
+                        <img src="img/graphicwork1.png"
+                            alt="illustrator">
+                        
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Graphic Work</h3>
+                        <p class="project-description">My Graphic work</p>
+                        <div class="project-tags">
+                            <span class="tag">Vector Portrait</span>
+                            <span class="tag">Logo Design</span>
+                            <span class="tag">Poster</span>
+                        </div>
+                        <a href="graphicwork.html" class="project-btn">
+                            <i class="fas fa-eye"></i>
+                            View Project
+                        </a>
+                    </div>
+                </div>
+
+                <div class="project-box" data-category="Figma">
+                    <div class="project-image">
+                        <img src="img/figmawork1.png"
+                            alt="E-Commerce Dashboard">
+                        
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Figma Work</h3>
+                        <p class="project-description">My Figma work</p>
+                        <div class="project-tags">
+                            <span class="tag">Smart Home Mobile App UI</span>
+                            <span class="tag">Home Page</span>
+                            <span class="tag">Log-in Page</span>
+                        </div>
+                        <a href="figma.html" class="project-btn">
+                            <i class="fas fa-eye"></i>
+                            View Project
+                        </a>
+                    </div>
+                </div>
+
+                <div class="project-box" data-category="Adobe XD">
+                    <div class="project-image">
+                        <img src="img/xdwork.png"
+                            alt="Banking Mobile App">
+                        
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Adobe XD Work</h3>
+                        <p class="project-description">My Adobe XD work</p>
+                        <div class="project-tags">
+                            <span class="tag">Travelling Website-interface</span>
+                        </div>
+                        <a href="adobexd.html" class="project-btn">
+                            <i class="fas fa-eye"></i>
+                            View Project
+                        </a>
+                    </div>
+                </div>
+
+                <!-- <div class="project-box" data-category="frontend">
+                    <div class="project-image">
+                        <img src="img/fruntend.jpg"
+                            alt="SaaS Landing Page">
+                        
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Frontend</h3>
+                        <p class="project-description">My Frontend work</p>
+                        <div class="project-tags">
+                            <span class="tag">Gym website</span>
+                        </div>
+                        <a href="" class="project-btn">
+                            <i class="fas fa-eye"></i>
+                            View Project
+                        </a>
+                    </div>
+                </div> -->
+ </div>
+        </div>
+    </section>
+
+
+     <!-- Skills Section -->
+    <section id="skills" class="section skills-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">
+                    My <span class="gradient-text">Skills</span>
+                </h2>
+                <p class="section-subtitle">
+                    A comprehensive overview of my technical skills and design capabilities
+                </p>
+            </div>
+
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <div class="category-header">
+                        <div class="category-icon">
+                            <i class="fas fa-palette"></i>
+                        </div>
+                        <div>
+                            <h3>Design</h3>
+                            <p>Visual design and user experience</p>
+                        </div>
+                    </div>
+                    <div class="skills-list">
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>UI/UX Design</span>
+                                <span>95%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 95%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>Figma</span>
+                                <span>90%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>Adobe Creative Suite</span>
+                                <span>85%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 85%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <div class="category-header">
+                        <div class="category-icon">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <div>
+                            <h3>Development</h3>
+                            <p>Front-end technologies and frameworks</p>
+                        </div>
+                    </div>
+                    <div class="skills-list">
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>HTML</span>
+                                <span>95%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 95%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>CSS</span>
+                                <span>88%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 88%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>JavaScript</span>
+                                <span>85%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 85%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tools-section">
+                <h3 class="tools-title">
+                    Tools & <span class="gradient-text">Technologies</span>
+                </h3>
+                <div class="tools-grid">
+                    <div class="tool-item">
+                        <div class="tool-icon figma-gradient">
+                            <i class=""></i>
+                        </div>
+                        <h4>Figma</h4>
+                    </div>
+                    <div class="tool-item">
+                        <div class="tool-icon photoshop-gradient">
+                            <i class=""></i>
+                        </div>
+                        <h4>Photoshop</h4>
+                    </div>
+                    <div class="tool-item">
+                        <div class="tool-icon adobe-gradient">
+                            <i class=""></i>
+                        </div>
+                        <h4>Adobe XD</h4>
+                    </div>
+                    <div class="tool-item">
+                        <div class="tool-icon illustrator-gradient">
+                            <i class=""></i>
+                        </div>
+                        <h4>illustrator</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">
+                    Get In <span class="gradient-text">Touch</span>
+                </h2>
+                <p class="section-subtitle">
+                    Ready to start your next project? Let's create something amazing together.
+                </p>
+            </div>
+            
+                
+                
+                <div class="contact-info">
+                        <div class="contact-method">
+                            <div class="method-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="method-info">
+                                <h4>Email</h4>
+                                <!-- <p>Drop me a line anytime</p> -->
+                                <span>subhigoyal344@gmail.com</span>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-method">
+                            <div class="method-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div class="method-info">
+                                <h4>Phone</h4>
+                                <!-- <p>Call for urgent projects</p> -->
+                                <span>+91 9310024943</span>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-method">
+                            <div class="method-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="method-info">
+                                <h4>Location</h4>
+                                <!-- <p>Based in India</p> -->
+                                <span>Gurgaon, Haryana</span>
+                            </div>
+                        </div>
+            </div>
+        </div>
+    </section> 
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+    <script>
+        $(window).scroll(function() {
+            if ($(document).scrollTop() > 50) {
+                $('.nav').addClass('affix');
+                console.log("OK");
+            } else {
+                $('.nav').removeClass('affix');
+            }
+        });
+        
+        $('.navTrigger').click(function () {
+        $(this).toggleClass('active');
+        console.log("Clicked menu");
+        $("#mainListDiv").toggleClass("show_list");
+        $("#mainListDiv").fadeIn();
+
+});
+</script>
+
+</body>
+</html>
