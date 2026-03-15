@@ -719,6 +719,10 @@ box-shadow:0 10px 25px rgba(59,130,246,0.4);
         margin: 0px !important;
     } */
 
+    .image-row img {
+        width: 100%;
+    }
+
    .navTrigger {
         display: block;
     }
